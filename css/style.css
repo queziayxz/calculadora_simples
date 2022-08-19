@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8%;
+    background-color: #737373;
+    color: #fff;
+}
+
+img {
+    width: 20%;
+    height: 5%;
+}
+
+input[type="button"]{
+    width: 70px;
+    height: 50px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+input[type="button"]:hover {
+    cursor: pointer;
+}
+
+.calculadora {
+    width: 340px;
+    height: 530px;
+    overflow: hidden;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 0 0 1em #000;;
+    background-color: #E2D0E1;
+}
+
+.container {
+    padding: 13px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.calc-input {
+    height: 25%;
+    width: 98%;
+    padding-right: 10px;
+    outline: none;
+    border-radius: 10px 10px 0 0;
+    border: none;
+    background-color: transparent;
+    text-align: right;
+    font-size: 2rem;
+}
+
+
+.calc-clean {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.buttons-action {
+    display: flex;
+    flex-direction: row;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: end;
+    gap: 10px;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.calc-delet, .share, .multiply, .subtract, .add, .equal {
+    background-color: #F2F2F2;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30%;
+}
+
+.acction-equal {
+    width: 140px;
+}
+
+.calc-delet {
+    background-image: url("../img/botao-de-deletar.png");
+}
+
+.share {
+    background-image: url("../img/divide.png");
+}
+
+.multiply {
+    background-image: url("../img/multiply.png");
+}
+
+.subtract {
+    background-image: url("../img/subtract.png");
+}
+
+.add {
+    background-image: url("../img/add.png");
+}
+
+.equal {
+    background-color: #D991A4;
+    background-image: url("../img/equal.png");
+}
